@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/:username/:hash"
+  to = "https://envelop.app/d/:username/:hash"
+  status = 301
+
+[[redirects]]
+  from = "*"
+  to = "https://envelop.app"
+  status = 301
